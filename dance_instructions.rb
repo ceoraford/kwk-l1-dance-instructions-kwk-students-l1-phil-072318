@@ -8,7 +8,7 @@ def footwork
   puts "Return right foot to the ground"
   puts "Finishing with a small skip-step backward"
 end 
-def skip_step
+def skip_steps
   puts "Lower left foot to the ground"
   puts "Bounce left foot back up slightly, kicking a few inches back"
   puts "Left, Right, Left and Left"
@@ -34,4 +34,12 @@ end
 assume_stance
 bust_a_move
 footwork
-bob_the_reins + skip_step
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+bob_the_reins + skip_steps
+lasso + skip_steps
