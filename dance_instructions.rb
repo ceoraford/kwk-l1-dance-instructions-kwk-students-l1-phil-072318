@@ -31,23 +31,12 @@ def bust_a_move
   puts "Be snazzy!"
 end
 
-assume_stance
-bust_a_move
-footwork
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-bob_the_reins + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
-lasso + skip_steps
+def gangnam_style
+  
+  assume_stance
+  bust_a_move
+  footwork
+  bob_the_reins + skip_steps
+  lasso + skip_steps
+
 
