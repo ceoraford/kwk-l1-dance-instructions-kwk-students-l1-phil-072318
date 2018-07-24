@@ -32,11 +32,11 @@ def bust_a_move
 end
 
 def gangnam_style
-  
   assume_stance
   bust_a_move
   footwork
   bob_the_reins + skip_steps
   lasso + skip_steps
+end 
 
 
