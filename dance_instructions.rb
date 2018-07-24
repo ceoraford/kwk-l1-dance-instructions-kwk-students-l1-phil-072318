@@ -8,10 +8,10 @@ def footwork
   puts "Return right foot to the ground"
   puts "Finishing with a small skip-step backward"
 end 
-def skip_steps
-  puts "Lower left foot to the ground"
-  puts "Bounce left foot back up slightly, kicking a few inches back"
-  puts "Left, Right, Left and Left"
+def skip_steps(starting_foot)
+  puts "Lower #{starting foot} to the ground"
+  puts "Bounce #{starting_foot} back up slightly, kicking a few inches back"
+  puts "#{starting_foot}, Right, Left and Left"
   puts "Lower right foot to the ground"
   puts "Bounce right foot back up slightly, kicking a few inches back"
   puts "Right, Left, Right and Right"
