@@ -11,11 +11,7 @@ end
 def skip_steps(starting_foot)
   puts "Lower #{starting foot} to the ground"
   puts "Bounce #{starting_foot} back up slightly, kicking a few inches back"
-  puts "#{starting_foot}, Right, Left and Left"
-  puts "Lower right foot to the ground"
-  puts "Bounce right foot back up slightly, kicking a few inches back"
-  puts "Right, Left, Right and Right"
-end
+  puts "Briefly raise the opposite foot, then the #{starting_foot} twice more"
 def bob_the_reins
   puts "Holding your arms out in front of you, straight and at chest level"
   puts "Cross your right wrist over your left and hold them together"
@@ -31,12 +27,16 @@ def bust_a_move
   puts "Be snazzy!"
 end
 
+
+
 def gangnam_style
   assume_stance
-  bust_a_move
   footwork
-  bob_the_reins + skip_steps
-  lasso + skip_steps
+  skip_steps("right foot")
+  bob_the_reins
+  skip_steps("left foot")
+  lasso
+  bust_a_move
 end 
 
 
